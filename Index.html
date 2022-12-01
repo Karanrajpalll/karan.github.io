@@ -1,0 +1,64 @@
+<html>
+  <head>
+    <title>karan website</title>
+    <style>
+    *{
+  margin: 0;  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+}
+  
+.header{
+  position: absolute;
+  top: 66px; left: 0; 
+  width: 100%; height: 100%;
+ background: url('/storage/emulated/0/ucdownloads/karan4.jpg') no-repeat;
+ background-size:cover ;
+ z-index: 1;
+ }
+ 
+.box{
+  position: relative;
+  width 100%; height:60px;
+  left: 0; top: 0;
+  background-color: white;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 100px;
+}
+
+.box h6{
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+ .links a{
+  padding: 3px 10px;
+  color: black;
+  font-size: 15px;
+}
+.active{
+  color: red !important;
+  
+}
+    </style>
+  </head>
+  <body>
+   <div class="header"></div>
+   <div class="box">
+     <h6>Karan Photography</h6>
+     <div class="links">
+       <a href="#" class="active">Home</a>
+       <a href="#">About</a>
+       <a href="#">Product</a>
+       <a href="#">Photos</a>
+       <a href="#">Contact</a>
+     </div>
+   </div>
+    
+    <script src="karan.js"></script>
+  </body>
+</html>
